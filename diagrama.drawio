@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-05-17T08:57:35.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Bx2qEkO4k_ETVFJif6hN" version="24.2.7" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="486" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;http[s]://domain&lt;/font&gt;&lt;font color=&quot;#990000&quot;&gt;&amp;lt;root_path&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;&amp;lt;path&amp;gt;&lt;/font&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="129.99999999999994" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="130" />
+            </Array>
+            <mxPoint x="245" y="129.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};spacingLeft=14;strokeColor=#007FFF;fontColor=#007FFF;" parent="1" vertex="1">
+          <mxGeometry x="50" y="40" width="80" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#007FFF;" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="35" y="80" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="&lt;font color=&quot;#990000&quot;&gt;Proxy&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};spacingLeft=8;strokeColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="40" width="80" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#990000;" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="35" y="80" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#990000;" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry x="35" y="152" width="10" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#007FFF;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="19" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-3" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};spacingLeft=13;fontColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="80" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#009900;" vertex="1" parent="MBMPPAXFVebHVUYGVGgO-3">
+          <mxGeometry x="35" y="80" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#009900;gradientColor=none;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="380" y="48.75" width="21.43" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;http[s]:&lt;/font&gt;&lt;font color=&quot;#990000&quot;&gt;&amp;lt;redirection&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;&amp;lt;path&amp;gt;&lt;/font&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="130" />
+            </Array>
+            <mxPoint x="405" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#990000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.reverse_proxy;" vertex="1" parent="1">
+          <mxGeometry x="220" y="50" width="15.47" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-8" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Response with link(s):&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#990000&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;lt;root_path&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;lt;new_path&amp;gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=default;startArrow=block;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="168" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="339.43" y="168" />
+            </Array>
+            <mxPoint x="404.43" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-10" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;http[s]://domain&lt;/font&gt;&lt;font color=&quot;#990000&quot;&gt;&amp;lt;root_path&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;&amp;lt;new_path&amp;gt;&lt;/font&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="94.47" y="199.99999999999994" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="179.47" y="200" />
+            </Array>
+            <mxPoint x="244.47" y="199.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBMPPAXFVebHVUYGVGgO-11" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;http[s]:&lt;/font&gt;&lt;font color=&quot;#990000&quot;&gt;&amp;lt;redirection&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;&amp;lt;new_path&amp;gt;&lt;/font&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254.43" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="339.43" y="200" />
+            </Array>
+            <mxPoint x="404.43" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

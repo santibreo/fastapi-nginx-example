@@ -1,0 +1,38 @@
+services:
+
+  proxy:
+    image: custom-nginx:latest
+    container_name: custom-nginx
+    build:
+      dockerfile: ./NGINX.Dockerfile
+    ports:
+      - "8080:80"
+    command: [nginx-debug, '-g', 'daemon off;']
+    networks:
+      backend:
+        aliases:
+          - proxy
+      default:
+        aliases:
+          - proxy
+
+  api:
+    image: api:latest
+    container_name: api
+    build:
+      dockerfile: ./FastAPI.Dockerfile
+    ports:
+      - "40001:40001"
+    networks:
+      backend:
+        aliases:
+          - api
+      default:
+        aliases:
+          - api
+
+
+networks:
+  backend:
+    driver: bridge
+    internal: true
